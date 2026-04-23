@@ -4,7 +4,8 @@ export type Specialty =
   | "cv_building"
   | "interview_prep"
   | "career_mapping"
-  | "industry_transition";
+  | "industry_transition"
+  | "english_fluency";
 
 export type SessionType = "60min" | "15min_trial";
 
@@ -65,6 +66,7 @@ export const SPECIALTY_LABELS: Record<Specialty, string> = {
   interview_prep: "الاستعداد للمقابلات",
   career_mapping: "التخطيط المهني",
   industry_transition: "التحوّل المهني",
+  english_fluency: "الإنجليزية المهنية",
 };
 
 export const STATUS_LABELS: Record<SessionStatus, string> = {

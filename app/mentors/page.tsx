@@ -11,6 +11,7 @@ const SPECIALTIES: Array<{ value: Specialty | "all"; label: string }> = [
   { value: "interview_prep", label: SPECIALTY_LABELS.interview_prep },
   { value: "career_mapping", label: SPECIALTY_LABELS.career_mapping },
   { value: "industry_transition", label: SPECIALTY_LABELS.industry_transition },
+  { value: "english_fluency", label: SPECIALTY_LABELS.english_fluency },
 ];
 
 const PRICES = [

@@ -18,7 +18,7 @@ create table if not exists public.profiles (
   role text not null check (role in ('mentee', 'mentor', 'admin')),
   specialty text check (
     specialty is null or specialty in
-      ('cv_building', 'interview_prep', 'career_mapping', 'industry_transition')
+      ('cv_building', 'interview_prep', 'career_mapping', 'industry_transition', 'english_fluency')
   ),
   bio text,
   price_per_hour numeric,
